@@ -1,0 +1,108 @@
+/* Font Family */
+@import url("https://fonts.cdnfonts.com/css/sf-ui-display");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* Universal Css Start Here */
+:root {
+	--first-color: #c23127;
+	--second-color: #2d2525;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: "SF UI Display", sans-serif;
+}
+@font-face {
+	font-family: "oriental";
+	src: url("../fonts/oriental-bold.ttf");
+}
+@font-face {
+	font-family: "oriental-light";
+	src: url("../fonts/oriental.ttf");
+}
+@font-face {
+	font-family: "falmera";
+	src: url("../fonts/Falmera_Pearson.ttf");
+}
+p {
+	font-size: 16px;
+}
+h1 {
+	font-family: "oriental";
+	font-size: 111px;
+	list-style: 121px;
+}
+h2 {
+	font-family: "oriental";
+	font-size: 56px;
+	font-weight: 600;
+	line-height: 66px;
+}
+h3 {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 32px;
+}
+h4 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+}
+h5 {
+	font-size: 13px;
+	line-height: 23px;
+}
+a.kigi-btn {
+	background-color: #c23127;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s;
+	border-radius: 50px;
+}
+figure {
+	margin-bottom: 0;
+}
+/* Universal Css End Here */
+
+/* Prelaoder */
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	overflow: hidden;
+	background: #c23127;
+}
+#preloader:before {
+	content: "";
+	position: fixed;
+	top: calc(50% - 30px);
+	left: calc(50% - 30px);
+	border: 6px solid #f2f2f2;
+	border-top: 6px solid #c23127;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	-webkit-animation: animate-preloader 1s linear infinite;
+	animation: animate-preloader 1s linear infinite;
+}
+@-webkit-keyframes animate-preloader {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes animate-preloader {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
