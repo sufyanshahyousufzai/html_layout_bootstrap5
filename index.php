@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/style.css">
 <!-- App Include Here -->
 <?php include 'inc/app.php';?>
 <!-- App Include Here -->
