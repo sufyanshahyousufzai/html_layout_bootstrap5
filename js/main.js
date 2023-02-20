@@ -1,16 +1,19 @@
-// Pre Loader Js
-$(window).on("load", function () {
-	// console.log("test");
-	$("#preloader").fadeOut(1000);
+// Mobile Header Js
+$(".canvas-bar .bar").click(function () {
+	$(".mobile-header").addClass("show");
 });
-// Pre Loader Js
+
+$(".mobile-header .cancel").click(function () {
+	$(".mobile-header").removeClass("show");
+});
+// Mobile Header Js
 
 // Mobile Header Js
-$("header .canvas_btn").click(function () {
-	$(".mobile_header").addClass("show");
+$(".search-btn").click(function () {
+	$(".search-box").addClass("show");
 });
 
-$(".mobile_header .cancel").click(function () {
-	$(".mobile_header").removeClass("show");
+$(".cancel-btn .cancel").click(function () {
+	$(".search-box").removeClass("show");
 });
 // Mobile Header Js

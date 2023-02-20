@@ -1,0 +1,97 @@
+/* Variable Css Start Here */
+/* Font cdn starts here */
+@font-face {
+	font-family: "Poppins-Light";
+	src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+	font-family: "Poppins-bold";
+	src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Poppins-semibold";
+	src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+	font-family: "Poppins-medium";
+	src: url("../fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Poppins-regular";
+	src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat-bold";
+	src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat-semibold";
+	src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat-medium";
+	src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat-reg";
+	src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+/* Font cdn ends here */
+:root {
+	/* Typography starts here */
+	--font-default: "Poppins-regular";
+	--font-heading: "Montserrat-semibold";
+	--font-btn: "Poppins-regular";
+	--font-poppin-bold: "Poppins-bold";
+	--font-poppin-semibold: "Poppins-semibold";
+	--font-poppin-medium: "Poppins-medium";
+	--font-montserrat-bold: "Montserrat-bold";
+	--font-montserrat-medium: "Montserrat-medium";
+	--font-montserrat-regular: "Montserrat-regular";
+	--font-light: "Poppins-Light";
+	--font-montserrat-regular: "Montserrat-reg";
+	/* Typography ends here */
+
+	/* Colors starts here */
+	--body-color: #fff;
+	--extra-color-1: #c2e62a;
+	--extra-color-2: #1e0e60;
+	--extra-color-3: #f9f9f9;
+	--extra-color-3: #000;
+	--profile-data-color: #2A263D;
+	/* --text-color: #848696; */
+	--text-color: #303030;
+	--heading-color: #fff;
+	--heading-color-2: #040404;
+	--light-text-color: #fff;
+	--dark-text-color: #000;
+	--checkbox-color: #636060;
+	--checkbox-back: #1E0E60;
+	--profile-back: #FBFBFB;
+	--pagination-color: #6D6D6D;
+	--history-color: #959EAD;
+	--history-border: #DCDCDC;
+	/* Colors ends here */
+
+	/* button colors starts here */
+	--primary-btn-color: #c4dd28;
+	--primary-btn-text-color: #0a0a0a;
+	--secondary-btn-color: #1e0e60;
+	--secondary-btn-text-color: #fff;
+	/* button colors starts here */
+	/* Auth Input Background */
+	--auth-input-light-bg: #F3F3F3;
+	--auth-input-light-border: #C3CAD9;
+
+}
+
+/* Variable Css End Here */

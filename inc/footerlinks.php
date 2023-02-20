@@ -17,17 +17,11 @@
 
 <!-- Wow Js CDN -->
 <script src="js/wow.min.js"></script>
+<!-- AOS ANIMTAION CDN -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 new WOW().init();
+AOS.init();
 </script>
-<!-- Wow Js CDN -->
-<script>
-        const CurrentLocation = location.href;
-const menuItem = document.querySelectorAll('.normal-nav-items .menu');
-const menuLength = menuItem.length
-for (let i = 0; i < menuLength; i++) {
-    if (menuItem[i].href === CurrentLocation) {
-        menuItem[i].className = "active"; 
-    }
-}
+
 </script>
