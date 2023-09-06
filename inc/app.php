@@ -15,6 +15,3 @@
     <!-- Site Loader Start Here -->
     <div id="preloader"></div>
     <!-- Site Loader End Here -->
-</body>
-
-</html>

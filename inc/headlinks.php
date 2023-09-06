@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Site Title -->
-<title>Lend Me Money</title>
+<title>Website Title</title>
 <!-- Site Title -->
 
 <!-- Favicon -->
@@ -25,9 +25,7 @@
 <!-- Anime.js CDN -->
 <link rel="stylesheet" href="css/animate.css">
 <!-- Anime.js CDN -->
-<!-- AOS ANIMATION CDN -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<!-- AOS ANIMATION CDN -->
+
 <!-- Css Stylesheet -->
 <link rel="stylesheet" href="css/variable.css">
 <link rel="stylesheet" href="css/style.css">
