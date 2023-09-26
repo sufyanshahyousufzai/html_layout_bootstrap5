@@ -15,7 +15,6 @@
 <!-- Wow Js CDN -->
 <script src="js/wow.min.js"></script>
 <!-- AOS ANIMTAION CDN -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 new WOW().init();
 AOS.init();
